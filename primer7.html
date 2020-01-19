@@ -3,91 +3,79 @@
 <head>
     <title>Untitled Document</title>
     <style type="text/css">
-        #container {
-            width: 704px;
-            text-align: justify;
-            background-color: #fff;
-            margin: auto;
-        }
-
         body {
-            background-color: #cccccc;
             font-family: Verdana;
             font-size: 11px;
+            background-color: #cccccc;
+
         }
 
+        #container {
+            width: 695px;
+            height: 690px;
+            background-color: #fff;
+            margin: 0;
+        }
 
         #content {
 
-            width: 704px;
             float: left;
-            background-color: #fff;
-        }
-
-        #nav {
-            width: 704;
-            background-color: #e7e7e7;
         }
 
         #header {
 
+
             height: 50px;
             background-color: #b0b0b0;
-            margin: 0;
+        }
+
+        h3,
+        p {
+            margin: 10px 10px;
         }
 
         h1 {
-            margin: 0;
-            padding: 10px 0 0 40px;
-        }
-
-        h3 {
-            margin-top: 10px;
-            margin-bottom: 5px;
-            padding-left: 10px;
+            padding: 10px 0 0 45px;
         }
 
         ul {
+            overflow: hidden;
+
+            width: 695px;
             margin: 0;
             padding: 0;
-            width: 720px;
+
             list-style: none;
             text-transform: uppercase;
+            background: url(images/nb.gif);
+            background-repeat: repeat-x;
         }
 
         li {
+
             display: inline;
             float: left;
         }
 
         a {
+
+            margin: 0;
             padding: 0 10px 0 10px;
-            line-height: 25px;
-            text-decoration: none;
-            color: #fff;
             float: left;
             display: block;
-            background-image: url(images/nb.gif);
-            background-repeat: repeat-x;
-        }
-
-        a:link {
+            line-height: 25px;
+            color: #fff;
             text-decoration: none;
-        }
 
-        a:visited {
-            color: black;
-            text-decoration: none;
         }
 
         a:hover {
+
             color: #333;
         }
 
-        a:active {
-            color: black;
-            font-weight: bold;
-            text-decoration: underline;
+        a:visited {
+            text-decoration: none;
         }
     </style>
 </head>
@@ -95,30 +83,29 @@
 <body>
     <div id="container">
         <div id="header">
-            <h1>Все о Минске</h1>
+            <h1>Всё о Минске</h1>
         </div>
-        <div id="nav">
+        <div>
             <ul>
-                <li> <a href="#">Площади </a></li>
-                <li> <a href="#">Парки </a></li>
-                <li> <a href="primer7.html">Фонтаны </a></li>
-                <li> <a href="#">Памятники </a></li>
-                <li> <a href="#">Скверы </a></li>
-                <li> <a href="#">Водоемы </a></li>
-                <li> <a href="#">Проспекты </a></li>
-                <li> <a href="#">Бульвары </a></li>
-                <li> <a href="#">Церкви </a></li>
+                <li><a href="#">Площади</a></li>
+                <li><a href="#">Парки</a></li>
+                <li><a href="primer7.html">Фонтаны</a></li>
+                <li><a href="#">Памятники</a></li>
+                <li><a href="#">Скверы</a></li>
+                <li><a href="#">Водоёмы</a></li>
+                <li><a href="#">Проспекты</a></li>
+                <li><a href="#">Бульвары</a></li>
+                <li><a href="#">Церкви</a></li>
             </ul>
         </div>
         <div id="content">
             <h3>Фонтаны Минска</h3>
-            <div style="position: relative; top: 10px; left: 10px;">
-                <img src="images/font1.jpg">
-            </div>
-            <div style="position: relative; top:-85px; left: 290px;">
-                <img src="images/font2.jpg">
-            </div>
+            <div style="position:relative; top:10px; left:10px;">
+                <img src="images/font1.jpg"></div>
+            <div style="position:relative; top:-90px; left:283px;">
+                <img src="images/font2.jpg"></div>
         </div>
+    </div>
 </body>
 
 </html>
